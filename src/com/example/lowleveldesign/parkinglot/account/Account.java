@@ -10,4 +10,6 @@ public abstract class Account {
     private AccountStatus status; // Refers to the AccountStatus enum
 
     public abstract boolean resetPassword();
+
+    // Personal commit
 }
