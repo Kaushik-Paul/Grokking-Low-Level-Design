@@ -31,7 +31,12 @@ A comprehensive parking lot management system that supports:
 - Display board for available spots
 
 ### Notify Me
-A notification system implementation with various notification channels and strategies.
+A notification system implementation based on the Observer design pattern that:
+- Allows users to subscribe to out-of-stock product notifications
+- Supports multiple notification channels (Email, SMS)
+- Implements the Observer pattern with Observable products and Observer users
+- Provides real-time stock update notifications
+- Demonstrates a flexible, extensible notification architecture
 
 ### Elevator System
 A multi-elevator control system that features:
