@@ -33,9 +33,18 @@ A comprehensive parking lot management system that supports:
 ### Notify Me
 A notification system implementation with various notification channels and strategies.
 
+### Elevator System
+A multi-elevator control system that features:
+- Multiple elevator cars in a building
+- Internal and external request handling
+- Efficient elevator dispatching algorithms
+- Floor display and direction indicators
+- Priority-based request processing
+
 ## How to Use
 
-Each implementation is contained in its own package under `src/com/example/lowleveldesign/`. Some implementations include their own README files with specific requirements and design considerations.
+Each implementation is contained in its own package under `src/com/example/lowleveldesign/`. 
+Some implementations include their own README files with specific requirements and design considerations.
 
 To run any implementation, navigate to its main class and execute it.
 
