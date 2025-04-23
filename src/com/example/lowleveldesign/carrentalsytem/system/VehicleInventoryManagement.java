@@ -1,6 +1,7 @@
 package com.example.lowleveldesign.carrentalsytem.system;
 
 import com.example.lowleveldesign.carrentalsytem.product.Vehicle;
+import com.example.lowleveldesign.carrentalsytem.product.VehicleType;
 
 import java.util.List;
 
@@ -12,8 +13,8 @@ public class VehicleInventoryManagement {
         this.vehicles = vehicles;
     }
 
-    public List<Vehicle> getVehicles() {
-        return vehicles;
+    public List<Vehicle> getVehicles(VehicleType vehicleType) {
+        return this.vehicles.stream().filter(vehicle -> vehicle.getVehicleType() == vehicleType).toList();
     }
 
     public void setVehicles(List<Vehicle> vehicles) {

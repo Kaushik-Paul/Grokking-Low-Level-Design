@@ -34,6 +34,14 @@ public class Reservation {
         return this.reservationId;
     }
 
+    public int getReservationId() {
+        return reservationId;
+    }
+
+    public void setReservationId(int reservationId) {
+        this.reservationId = reservationId;
+    }
+
     public StoreLocation getPickUpLocation() {
         return pickUpLocation;
     }
