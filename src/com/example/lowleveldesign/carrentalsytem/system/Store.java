@@ -1,8 +1,10 @@
 package com.example.lowleveldesign.carrentalsytem.system;
 
 import com.example.lowleveldesign.carrentalsytem.product.Vehicle;
+import com.example.lowleveldesign.carrentalsytem.product.VehicleType;
 import com.example.lowleveldesign.carrentalsytem.user.User;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Store {
@@ -11,8 +13,14 @@ public class Store {
     private StoreLocation storeLocation;
     private List<Reservation> reservations;
 
-    public List<Vehicle> getAllAvailableVehicles() {
-        return inventoryManagement.getVehicles();
+    public Store(StoreLocation storeLocation) {
+        this.storeLocation = storeLocation;
+        this.reservations = new java.util.ArrayList<>();
+        this.inventoryManagement = new VehicleInventoryManagement(new ArrayList<>());
+    }
+
+    public List<Vehicle> getAllAvailableVehicles(VehicleType vehicleType) {
+        return inventoryManagement.getVehicles(vehicleType);
     }
 
     public void setVehicles(List<Vehicle> vehicles) {
@@ -40,5 +48,13 @@ public class Store {
 
     public Object getStoreLocation() {
         return storeLocation;
+    }
+
+    public int getStoreId() {
+        return storeId;
+    }
+
+    public void setStoreId(int storeId) {
+        this.storeId = storeId;
     }
 }

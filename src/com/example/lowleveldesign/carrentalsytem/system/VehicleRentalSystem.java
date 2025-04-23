@@ -15,12 +15,7 @@ public class VehicleRentalSystem {
     }
 
     public Store getStore(StoreLocation storeLocation) {
-        for (Store store : stores) {
-            if (store.getStoreLocation().equals(storeLocation)) {
-                return store;
-            }
-        }
-        return null;
+        return this.stores.getFirst();
     }
 
 }
