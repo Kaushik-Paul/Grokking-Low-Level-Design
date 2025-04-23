@@ -46,6 +46,15 @@ A multi-elevator control system that features:
 - Floor display and direction indicators
 - Priority-based request processing
 
+### Car Rental System
+A modular car rental platform supporting:
+- Multiple store locations and vehicle inventories
+- Customer and store manager roles
+- Reservation creation, modification, and cancellation
+- Vehicle availability tracking
+- Payment processing for rentals
+- Support for various vehicle types and rental durations (hourly, daily, weekly)
+
 ## How to Use
 
 Each implementation is contained in its own package under `src/com/example/lowleveldesign/`. 
