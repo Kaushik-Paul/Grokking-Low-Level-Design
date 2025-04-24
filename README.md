@@ -55,6 +55,14 @@ A modular car rental platform supporting:
 - Payment processing for rentals
 - Support for various vehicle types and rental durations (hourly, daily, weekly)
 
+### Logger System
+A flexible and extensible logging utility that demonstrates the Chain of Responsibility design pattern:
+- Supports multiple log levels: ERROR, DEBUG, INFO
+- Processes log messages based on severity, passing unhandled messages along a processor chain
+- Easily extensible to add new log levels or processors
+- Provides a simple API for logging from the main application
+- Includes a usage example and instructions for extension
+
 ## How to Use
 
 Each implementation is contained in its own package under `src/com/example/lowleveldesign/`. 
@@ -71,6 +79,15 @@ To run any implementation, navigate to its main class and execute it.
 - Dependency Inversion Principle
 - Composition over Inheritance
 - Encapsulation and Information Hiding
+
+**Design Patterns Demonstrated:**
+- Chain of Responsibility (Logger System)
+- Observer (Notify Me)
+- Factory (Tic-Tac-Toe, Elevator System, Car Rental System)
+- Singleton (Elevator System Dispatchers)
+- Command, State (Elevator System)
+
+See individual module READMEs for more details on the specific patterns and principles used.
 
 ## Future Additions
 
