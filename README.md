@@ -63,6 +63,15 @@ A flexible and extensible logging utility that demonstrates the Chain of Respons
 - Provides a simple API for logging from the main application
 - Includes a usage example and instructions for extension
 
+### Snakes and Ladders Game
+A modular implementation of the classic Snakes and Ladders board game:
+- Configurable square board with randomly placed snakes and ladders
+- Two or more players, each starting at cell 0
+- Turn-based dice rolling and movement
+- Automatic handling of snakes (move down) and ladders (move up)
+- First player to reach the last cell wins
+- Extensible design for custom rules, board sizes, and dice
+
 ## How to Use
 
 Each implementation is contained in its own package under `src/com/example/lowleveldesign/`. 
