@@ -72,8 +72,6 @@ A modular implementation of the classic Snakes and Ladders board game:
 - First player to reach the last cell wins
 - Extensible design for custom rules, board sizes, and dice
 
-For detailed requirements, design, and extensibility, see [`snakenladder/README.md`](src/com/example/lowleveldesign/snakenladder/README.md).
-
 ## How to Use
 
 Each implementation is contained in its own package under `src/com/example/lowleveldesign/`. 
