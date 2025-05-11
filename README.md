@@ -72,6 +72,14 @@ A modular implementation of the classic Snakes and Ladders board game:
 - First player to reach the last cell wins
 - Extensible design for custom rules, board sizes, and dice
 
+### BookMyShow LLD
+An online ticket booking platform with:
+- Movie search by city
+- Theatre and show management
+- Seat selection and booking
+- Payment processing for bookings
+- Extensible design for adding new features
+
 ## How to Use
 
 Each implementation is contained in its own package under `src/com/example/lowleveldesign/`. 
