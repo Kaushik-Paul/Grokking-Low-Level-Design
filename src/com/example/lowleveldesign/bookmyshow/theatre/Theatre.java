@@ -16,7 +16,7 @@ public class Theatre {
     public Theatre() {
         this.theatreId = (int) (Math.random() * 100) + 1;
         this.theatreAddress = "";
-        this.city = City.Kolkata;
+        this.city = City.Bengalore;
         this.screens = new ArrayList<>();
         this.shows = new ArrayList<>();
     }
