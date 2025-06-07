@@ -80,6 +80,14 @@ An online ticket booking platform with:
 - Payment processing for bookings
 - Extensible design for adding new features
 
+### Null Pointer System
+An implementation of the Null Object Pattern that demonstrates:
+- Safe handling of null references
+- Clean client code without null checks
+- Default/neutral behavior for missing objects
+- Vehicle type system with null object implementation
+- Factory pattern for object creation
+
 ## How to Use
 
 Each implementation is contained in its own package under `src/com/example/lowleveldesign/`. 
@@ -99,6 +107,7 @@ To run any implementation, navigate to its main class and execute it.
 
 **Design Patterns Demonstrated:**
 - Chain of Responsibility (Logger System)
+- Null Object (Null Pointer System)
 - Observer (Notify Me)
 - Factory (Tic-Tac-Toe, Elevator System, Car Rental System)
 - Singleton (Elevator System Dispatchers)
