@@ -88,6 +88,18 @@ An implementation of the Null Object Pattern that demonstrates:
 - Vehicle type system with null object implementation
 - Factory pattern for object creation
 
+### Composite Pattern
+A demonstration of the Composite design pattern with two implementations:
+1. **Calculator**
+   - Represents arithmetic expressions as a tree structure
+   - Supports basic operations (+, -, *, /)
+   - Enables uniform treatment of simple and complex expressions
+
+2. **File System**
+   - Models hierarchical file system with files and directories
+   - Demonstrates recursive operations on composite structures
+   - Shows how to treat individual and composite objects uniformly
+
 ## How to Use
 
 Each implementation is contained in its own package under `src/com/example/lowleveldesign/`. 
@@ -107,6 +119,7 @@ To run any implementation, navigate to its main class and execute it.
 
 **Design Patterns Demonstrated:**
 - Chain of Responsibility (Logger System)
+- Composite (Calculator, File System)
 - Null Object (Null Pointer System)
 - Observer (Notify Me)
 - Factory (Tic-Tac-Toe, Elevator System, Car Rental System)
