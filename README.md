@@ -111,6 +111,15 @@ A demonstration of the Composite design pattern with two implementations:
 
 - [View detailed documentation](./src/com/example/lowleveldesign/compositepattern/README.md)
 
+### Adapter Design Pattern
+A practical implementation of the Adapter pattern that:
+- Bridges incompatible interfaces (pounds to kilograms)
+- Demonstrates object composition for interface adaptation
+- Follows Open/Closed Principle for extension
+- Includes a concrete weight machine example
+- Shows clean client usage with no modification to existing code
+- [View detailed documentation](./src/com/example/lowleveldesign/adapterdesignpattern/README.md)
+
 ## How to Use
 
 Each implementation is contained in its own package under `src/com/example/lowleveldesign/`. 
