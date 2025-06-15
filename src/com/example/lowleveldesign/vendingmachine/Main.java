@@ -3,6 +3,9 @@ package com.example.lowleveldesign.vendingmachine;
 import com.example.lowleveldesign.vendingmachine.payment.Coin;
 import com.example.lowleveldesign.vendingmachine.products.*;
 import com.example.lowleveldesign.vendingmachine.vendingmachinestate.State;
+import com.example.lowleveldesign.vendingmachine.vendingmachinestate.stateimpl.IdleState;
+
+import java.util.ArrayList;
 
 public class Main {
 
@@ -47,7 +50,9 @@ public class Main {
     }
 
     private static void fillUpInventory(VendingMachine vendingMachine) {
+        vendingMachine.setVendingMachineState(new IdleState());
         vendingMachine.setInventory(new Inventory(5));
+        vendingMachine.setCoinList(new ArrayList<>());
 
         ItemShelf[] slots = vendingMachine.getInventory().getInventory();
         for (int i = 0; i < slots.length; i++) {
