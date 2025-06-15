@@ -2,7 +2,9 @@ package com.example.lowleveldesign.vendingmachine.products;
 
 import com.example.lowleveldesign.vendingmachine.payment.Coin;
 import com.example.lowleveldesign.vendingmachine.vendingmachinestate.State;
+import com.example.lowleveldesign.vendingmachine.vendingmachinestate.stateimpl.IdleState;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class VendingMachine {
@@ -10,7 +12,11 @@ public class VendingMachine {
     private Inventory inventory;
     private List<Coin> coinList;
 
-    public VendingMachine() {}
+    public VendingMachine() {
+        this.vendingMachineState = new IdleState();
+        this.inventory = new Inventory(5);
+        this.coinList = new ArrayList<>();
+    }
 
     public VendingMachine(State vendingMachineState, Inventory inventory, List<Coin> coinList) {
         this.vendingMachineState = vendingMachineState;
