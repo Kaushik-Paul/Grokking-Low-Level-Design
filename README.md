@@ -79,6 +79,16 @@ A modular implementation of the classic Snakes and Ladders board game:
 - Extensible design for custom rules, board sizes, and dice
 - [View detailed documentation](./src/com/example/lowleveldesign/snakenladder/README.md)
 
+### Vending Machine System
+A finite-state vending machine that:
+- Accepts multiple coin denominations (penny, nickel, dime, quarter)
+- Manages product inventory with coded shelves (COKE, PEPSI, JUICE, SODA)
+- Handles state transitions (Idle → HasMoney → Selection → Dispense)
+- Calculates and returns correct change
+- Supports full refund before dispensing
+- Easily extensible for new coins, products, or payment modes
+- [View detailed documentation](./src/com/example/lowleveldesign/vendingmachine/README.md)
+
 ### BookMyShow LLD
 An online ticket booking platform with:
 - Movie search by city
@@ -144,7 +154,8 @@ To run any implementation, navigate to its main class and execute it.
 - Observer (Notify Me)
 - Factory (Tic-Tac-Toe, Elevator System, Car Rental System)
 - Singleton (Elevator System Dispatchers)
-- Command, State (Elevator System)
+- Command (Elevator System)
+- State (Vending Machine)
 
 See individual module READMEs for more details on the specific patterns and principles used.
 
