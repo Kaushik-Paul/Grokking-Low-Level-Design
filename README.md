@@ -89,6 +89,15 @@ A finite-state vending machine that:
 - Easily extensible for new coins, products, or payment modes
 - [View detailed documentation](./src/com/example/lowleveldesign/vendingmachine/README.md)
 
+### ATM System
+A comprehensive Automated Teller Machine implementation featuring:
+- Card authentication with PIN verification
+- Cash withdrawal with multiple denomination support
+- Balance inquiry functionality
+- Transaction management with receipt generation
+- State pattern for managing ATM operations
+- [View detailed documentation](./src/com/example/lowleveldesign/atm/README.md)
+
 ### BookMyShow LLD
 An online ticket booking platform with:
 - Movie search by city
