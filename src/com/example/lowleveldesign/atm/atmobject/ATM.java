@@ -1,7 +1,7 @@
 package com.example.lowleveldesign.atm.atmobject;
 
 import com.example.lowleveldesign.atm.atmstate.ATMState;
-import com.example.lowleveldesign.vendingmachine.vendingmachinestate.stateimpl.IdleState;
+import com.example.lowleveldesign.atm.atmstate.IdleState;
 
 public class ATM {
 

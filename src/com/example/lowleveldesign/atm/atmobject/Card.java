@@ -18,7 +18,7 @@ public class Card {
     }
 
     public int getBankBalance() {
-        return bankAccount.balance;
+        return bankAccount.getBalance();
     }
 
     public void deductBankBalance(int amount) {
