@@ -2,6 +2,7 @@ package com.example.lowleveldesign.atm.atmstate;
 
 import com.example.lowleveldesign.atm.atmobject.ATM;
 import com.example.lowleveldesign.atm.atmobject.Card;
+import com.example.lowleveldesign.atm.atmobject.TransactionType;
 
 
 public abstract class ATMState {

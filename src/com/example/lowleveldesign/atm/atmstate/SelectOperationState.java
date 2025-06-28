@@ -2,6 +2,7 @@ package com.example.lowleveldesign.atm.atmstate;
 
 import com.example.lowleveldesign.atm.atmobject.ATM;
 import com.example.lowleveldesign.atm.atmobject.Card;
+import com.example.lowleveldesign.atm.atmobject.TransactionType;
 
 public class SelectOperationState extends ATMState {
 
@@ -38,8 +39,6 @@ public class SelectOperationState extends ATMState {
 
     private void showOperationsMenu() {
         System.out.println("Please select an operation");
-
-        // TODO: create a method in TransactionType class
         TransactionType.showAllTransactionTypes();
     }
 

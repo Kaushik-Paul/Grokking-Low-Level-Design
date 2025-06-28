@@ -2,6 +2,10 @@ package com.example.lowleveldesign.atm.atmstate;
 
 import com.example.lowleveldesign.atm.atmobject.ATM;
 import com.example.lowleveldesign.atm.atmobject.Card;
+import com.example.lowleveldesign.atm.atmwithdrawl.CashWithdrawProcessor;
+import com.example.lowleveldesign.atm.atmwithdrawl.FiveHundredWithdrawProcessor;
+import com.example.lowleveldesign.atm.atmwithdrawl.OneHundredWithdrawProcessor;
+import com.example.lowleveldesign.atm.atmwithdrawl.TwoThousandWithdrawProcessor;
 
 public class CashWithdrawalState extends ATMState {
 
@@ -17,8 +21,6 @@ public class CashWithdrawalState extends ATMState {
             System.out.println("Insufficient fund in the your Bank Account");
             exit(atmObject);
         } else {
-
-            // TODO: Create classes for this logic as well
             card.deductBankBalance(withdrawAmount);
             atmObject.deductATMBalance(withdrawAmount);
 
@@ -26,7 +28,7 @@ public class CashWithdrawalState extends ATMState {
             CashWithdrawProcessor withdrawProcessor =
                     new TwoThousandWithdrawProcessor(new FiveHundredWithdrawProcessor(new OneHundredWithdrawProcessor(null)));
 
-            withdrawProcessor.withdraw(atmObject, withdrawalAmountRequest);
+            withdrawProcessor.withdraw(atmObject, withdrawAmount);
             exit(atmObject);
         }
 
