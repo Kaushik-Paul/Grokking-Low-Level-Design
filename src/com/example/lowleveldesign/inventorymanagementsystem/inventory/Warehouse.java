@@ -17,4 +17,20 @@ public class Warehouse {
     public void addItemToInventory(Map<Integer, Integer> productCategoryAndCountMap) {
         this.inventory.addItems(productCategoryAndCountMap);
     }
+
+    public Inventory getInventory() {
+        return inventory;
+    }
+
+    public void setInventory(Inventory inventory) {
+        this.inventory = inventory;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 }
