@@ -11,6 +11,10 @@ public class Inventory {
         this.productCategoryList = new ArrayList<>();
     }
 
+    public List<ProductCategory> getProductCategoryList() {
+        return productCategoryList;
+    }
+
     public void addProductCategory(int categoryId, String categoryName, double price) {
         ProductCategory productCategory = new ProductCategory();
         productCategory.setProductCategoryId(categoryId);
