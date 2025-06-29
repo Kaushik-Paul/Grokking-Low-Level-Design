@@ -107,6 +107,16 @@ An online ticket booking platform with:
 - Extensible design for adding new features
 - [View detailed documentation](./src/com/example/lowleveldesign/bookmyshow/README.md)
 
+### Inventory Management System
+A comprehensive system for tracking and managing inventory with features like:
+- Product management with SKU and stock level tracking
+- Purchase and sales order processing
+- Real-time inventory control and alerts
+- Role-based user access control
+- Reporting and analytics
+- Built with Java 21 and following SOLID principles
+- [View detailed documentation](./src/com/example/lowleveldesign/inventorymanagementsystem/README.md)
+
 ### Null Pointer System
 An implementation of the Null Object Pattern that demonstrates:
 - Safe handling of null references
