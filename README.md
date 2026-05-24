@@ -32,6 +32,17 @@ A comprehensive parking lot management system that supports:
 - Display board for available spots
 - [View detailed documentation](./src/com/example/lowleveldesign/parkinglot/README.md)
 
+### Parking Lot System 2
+An enhanced parking lot management system with layered architecture:
+- Multiple vehicle types (Two-wheeler, Four-wheeler, Heavy vehicle)
+- Multi-floor support with dynamic slot allocation
+- Flexible pricing models (hourly and flat rate)
+- Multiple payment gateways with Adapter pattern (Razorpay, Stripe)
+- Payment retry mechanism with fallback support
+- Real-time parking status tracking
+- Clean separation of concerns with Controller-Service-Repository layers
+- [View detailed documentation](./src/com/example/lowleveldesign/parkinglot2/README.md)
+
 ### Notify Me
 A notification system implementation based on the Observer design pattern that:
 - Allows users to subscribe to out-of-stock product notifications
