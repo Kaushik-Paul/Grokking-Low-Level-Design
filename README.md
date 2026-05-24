@@ -80,6 +80,17 @@ A flexible and extensible logging utility that demonstrates the Chain of Respons
 - Includes a usage example and instructions for extension
 - [View detailed documentation](./src/com/example/lowleveldesign/logger/README.md)
 
+### Logging Framework
+A comprehensive logging framework demonstrating multiple design patterns and principles:
+- Multiple log levels (DEBUG, INFO, WARNING, ERROR, FATAL) with priority-based filtering
+- Multiple appenders (Console, File, Database) for different output destinations
+- Custom formatters with pattern support for message formatting
+- Flexible filters (level-based, source-based) for message filtering
+- Thread-safe implementation for concurrent environments
+- Builder pattern for immutable LogMessage construction
+- Strategy pattern for pluggable appenders, formatters, and filters
+- [View detailed documentation](./src/com/example/lowleveldesign/loggingframework/README.md)
+
 ### Snakes and Ladders Game
 A modular implementation of the classic Snakes and Ladders board game:
 - Configurable square board with randomly placed snakes and ladders
