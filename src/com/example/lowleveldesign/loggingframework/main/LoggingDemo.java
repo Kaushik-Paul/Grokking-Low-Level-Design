@@ -16,19 +16,19 @@ public class LoggingDemo {
         System.out.println("=== LoggingFramework Demo ===\n");
         
         // Demo 1: Basic logging with different levels
-        // demoBasicLogging();
+         demoBasicLogging();
         
         // Demo 2: Multiple appenders
         demoMultipleAppenders();
         
         // Demo 3: Custom formatters
-        // demoCustomFormatters();
+         demoCustomFormatters();
         
         // Demo 4: Filters
-        // demoFilters();
+         demoFilters();
         
         // Demo 5: Thread safety
-        // demoThreadSafety();
+         demoThreadSafety();
         
         System.out.println("\n=== Demo Complete ===");
     }
