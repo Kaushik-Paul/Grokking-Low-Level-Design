@@ -101,6 +101,16 @@ A modular implementation of the classic Snakes and Ladders board game:
 - Extensible design for custom rules, board sizes, and dice
 - [View detailed documentation](./src/com/example/lowleveldesign/snakenladder/README.md)
 
+### Traffic Signal System
+A comprehensive traffic signal management system featuring:
+- Four-directional traffic lights with automatic signal cycling
+- Dynamic timing adjustment based on real-time vehicle count
+- Emergency vehicle priority with immediate green signal override
+- State pattern for traffic light states (RED, YELLOW, GREEN, OFF)
+- Layered architecture with Controller-Service-Repository separation
+- Real-time monitoring of intersection status and traffic counts
+- [View detailed documentation](./src/com/example/lowleveldesign/trafficsignalsystem/README.md)
+
 ### Vending Machine System
 A finite-state vending machine that:
 - Accepts multiple coin denominations (penny, nickel, dime, quarter)
