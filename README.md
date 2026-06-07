@@ -181,6 +181,17 @@ A practical implementation of the Adapter pattern that:
 - Shows clean client usage with no modification to existing code
 - [View detailed documentation](./src/com/example/lowleveldesign/adapterdesignpattern/README.md)
 
+### Pub/Sub System
+A comprehensive publish-subscribe messaging system featuring:
+- Topic-based message categorization and management
+- Subscriber registration with online/offline status tracking
+- Observer pattern for real-time notifications (Email, Realtime)
+- Message delivery tracking with acknowledgment support
+- Layered architecture with Controller-Service-Repository separation
+- Multiple delivery channels with extensible design
+- Background async message processing
+- [View detailed documentation](./src/com/example/lowleveldesign/pubsubsystem/README.md)
+
 ## How to Use
 
 Each implementation is contained in its own package under `src/com/example/lowleveldesign/`. 
@@ -202,11 +213,12 @@ To run any implementation, navigate to its main class and execute it.
 - Chain of Responsibility (Logger System)
 - Composite (Calculator, File System)
 - Null Object (Null Pointer System)
-- Observer (Notify Me)
+- Observer (Notify Me, Pub/Sub System)
 - Factory (Tic-Tac-Toe, Elevator System, Car Rental System)
 - Singleton (Elevator System Dispatchers)
 - Command (Elevator System)
 - State (Vending Machine)
+- Repository (Pub/Sub System, Parking Lot 2, Traffic Signal System, Inventory Management System)
 
 See individual module READMEs for more details on the specific patterns and principles used.
 
